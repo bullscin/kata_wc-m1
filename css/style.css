@@ -337,6 +337,10 @@ button {
   .main__navigation {
     padding: 0 22px 15px 22px;
   }
+  
+   .main__nav {
+    gap: 0;
+  }
   /*  */
   .box__text {
     max-height: 100%;
