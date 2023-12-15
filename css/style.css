@@ -178,6 +178,9 @@ button {
   background: transparent;
   white-space: nowrap;
 }
+.main__nav-button:last-child {
+  padding-right: 27px;
+}
 
 .main__nav-button:focus,
 .main__nav-button:hover {
@@ -236,7 +239,7 @@ button {
 }
 .feedback__img {
   position: absolute;
-/*   left: -10px; */
+  left: -10px;
   width: 100%;
   height: auto;
 }
@@ -337,8 +340,8 @@ button {
   .main__navigation {
     padding: 0 22px 15px 22px;
   }
-  
-   .main__nav {
+  .main__nav {
+    width: 100%;
     gap: 0;
   }
   /*  */
