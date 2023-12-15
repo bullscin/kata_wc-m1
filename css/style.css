@@ -279,6 +279,7 @@ button {
     flex-direction: row;
     justify-content: space-between;
     padding: 0 14px 40px;
+    gap: 48px;
   }
 
   .box__text {
@@ -344,6 +345,10 @@ button {
     gap: 0;
   }
   /*  */
+  .feedback {
+    gap: 36px;
+  }
+
   .box__text {
     max-height: 100%;
     padding: 0;
