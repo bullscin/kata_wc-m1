@@ -1,1 +1,1 @@
-https://bullscin.github.io/kataMaketOne/
+https://bullscin.github.io/Kata_trening/
