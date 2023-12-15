@@ -1,1 +1,1 @@
-# kataMaketOne
+https://bullscin.github.io/kataMaketOne/
