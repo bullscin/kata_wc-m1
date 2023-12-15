@@ -237,8 +237,8 @@ button {
 .feedback__img {
   position: absolute;
   left: -10px;
-  max-width: 320px;
-  max-height: 320px;
+  width: 100%;
+  height: auto;
 }
 
 /* ------Adaptive------------------------------------- */
@@ -335,7 +335,7 @@ button {
   }
   /*  */
   .main__navigation {
-    padding: 0 16px 15px 22px;
+    padding: 0 22px 15px 22px;
   }
   /*  */
   .box__text {
@@ -362,9 +362,5 @@ button {
 
   .feedback__text {
     width: 490px;
-  }
-
-  .feedback__img {
-    max-width: 100%;
   }
 }
