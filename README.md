@@ -1,1 +1,1 @@
-https://bullscin.github.io/Kata_trening/
+https://bullscin.github.io/kata_wc-m1/
