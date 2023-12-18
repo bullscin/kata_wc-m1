@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,122 +12,104 @@
       <div class="container">
         <nav class="nav header__nav">
           <div class="menu-left">
-            <button class="menu__btn">
-              <a href="#" class=""
-                ><img src="images/ic/burger.svg" alt="Кнопка меню" class=""
-              /></a>
+            <button class="btn menu__btn">
+              <a href="#" class=""> </a>
             </button>
             <span class="stick stick1"></span>
             <a href="#" class="logo"
               ><img src="images/logo.png" alt="Логотип" class="logo__img"
             /></a>
           </div>
-          <!--  -->
+
           <div class="menu-right">
             <ul class="menu__list">
               <li class="menu__item">
-                <button class="menu__button">
-                  <img src="images/ic/call.svg" alt="Телефон" />
-                </button>
+                <button class="btn menu__button menu__button--call"></button>
               </li>
               <li class="menu__item">
-                <button class="menu__button">
-                  <img src="images/ic/chat.svg" alt="Чат" />
-                </button>
+                <button class="btn menu__button menu__button--chat"></button>
               </li>
               <li class="menu__item">
-                <button class="menu__button">
-                  <img src="images/ic/profile.svg" alt="Профиль" />
-                </button>
+                <button class="btn menu__button menu__button--profile"></button>
               </li>
             </ul>
             <span class="stick stick2"></span>
             <div class="info info__header">
-              <button class="info__button">
-                <img src="images/ic/repair.svg" alt="Оставить заявку" />
-              </button>
-              <button class="info__button">
-                <img src="images/ic/checkstatus.svg" alt="Статус ремонта" />
-              </button>
+              <button class="btn info__button info__button--repair"></button>
+              <button
+                class="btn info__button info__button--checkstatus"
+              ></button>
             </div>
           </div>
-          <!--  -->
         </nav>
+
+        <div class="header__bottom">
+          <h1 class="title">Услуги и сервисы</h1>
+
+          <div class="info info__top">
+            <p class="info__descr">Оставить заявку</p>
+            <button class="btn info__button info__button--repair"></button>
+            <p class="info__descr">Статус ремонта</p>
+            <button class="btn info__button info__button--checkstatus"></button>
+          </div>
+        </div>
       </div>
     </header>
     <!--  -->
     <!--  -->
     <main class="main">
       <div class="container">
-        <section class="top">
-          <div class="top__inner">
-            <div class="top__title">
-              <span>
-                <svg
-                  class="decor"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="4"
-                  height="40"
-                  viewBox="0 0 4 40"
-                  fill="none"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M4 4C4 1.79086 2.20914 0 0 0V40C2.20914 40 4 38.2091 4 36V4Z"
-                    fill="#41F6D7"
-                  />
-                </svg>
-              </span>
-              <h1 class="title">Услуги и сервисы</h1>
-            </div>
-            <div class="info info__top">
-              <p class="info__descr">Оставить заявку</p>
-              <button class="info__button">
-                <img src="images/ic/repair.svg" alt="Оставить заявку" />
-              </button>
-              <p class="info__descr">Статус ремонта</p>
-              <button class="info__button">
-                <img src="images/ic/checkstatus.svg" alt="Статус ремонта" />
-              </button>
-            </div>
-          </div>
-        </section>
-
-        <section class="main__navigation">
+        <div class="main__wrapper">
           <nav class="nav main__nav">
-            <button class="main__nav-button" autofocus>
-              Ремонтируемые бренды
-            </button>
-            <button class="main__nav-button">Ремонтируемые устройства</button>
-            <button class="main__nav-button">Цены на услуги</button>
-            <button class="main__nav-button">Адреса сервисных центров</button>
-            <button class="main__nav-button">Специальные цены</button>
+            <ul class="menu__list--m">
+              <li class="menu__item--m">
+                <button class="main__nav-button" autofocus>
+                  Ремонтируемые бренды
+                </button>
+              </li>
+              <li class="menu__item--m">
+                <button class="main__nav-button">
+                  Ремонтируемые устройства
+                </button>
+              </li>
+              <li class="menu__item--m">
+                <button class="main__nav-button">Цены на услуги</button>
+              </li>
+              <li class="menu__item--m">
+                <button class="main__nav-button">
+                  Адреса сервисных центров
+                </button>
+              </li>
+              <li class="menu__item--m">
+                <button class="main__nav-button">Специальные цены</button>
+              </li>
+            </ul>
           </nav>
-        </section>
 
-        <section class="feedback main__feedback">
-          <div class="feedback__info">
-            <h2 class="feedback__title">Отзывы</h2>
-            <div class="box__text">
-              <p class="feedback__text feedback__text-s">
-                Мы являемся авторизованным сервисным центром по ремонту техники
-                Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
-                официальной гарантией производителя.
-              </p>
-              <p class="feedback__text">
-                Мы успешно работаем с 1992 года и заслужили репутацию надежного
-                партнера, что подтверждает большое количество постоянных
-                клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям
-                и, в свою очередь, советуют нас родным и близким.
-              </p>
+          <article class="feedback main__feedback">
+            <div class="feedback__info">
+              <h2 class="feedback__title">Отзывы</h2>
+              <div class="box__text">
+                <p class="feedback__text feedback__text-s">
+                  Мы являемся авторизованным сервисным центром по ремонту
+                  техники Dell. Только у нас вы можете отремонтировать свой
+                  ноутбук Dell с официальной гарантией производителя.
+                </p>
+                <p class="feedback__text">
+                  Мы успешно работаем с 1992 года и заслужили репутацию
+                  надежного партнера, что подтверждает большое количество
+                  постоянных клиентов. Мы гордимся тем, что к нам обращаются по
+                  рекомендациям и, в свою очередь, советуют нас родным и
+                  близким.
+                </p>
+              </div>
+              <button class="feedback-btn">Читать далее</button>
             </div>
-            <button class="feedback-btn">Читать далее</button>
-          </div>
-          <div class="feedback__main-descr">
-            <img src="images/descr.png" alt="" class="feedback__img" />
-          </div>
-        </section>
+            <div class="feedback__main-descr">
+              <img src="images/descr.jpg" alt="" class="feedback__img" />
+            </div>
+          </article>
+        </div>
       </div>
     </main>
   </body>
