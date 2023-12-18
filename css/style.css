@@ -70,7 +70,7 @@ button {
 
 .container {
   max-width: 1140px;
-  padding: 0 10px;
+  /* padding: 0 10px; */
   margin: 0 auto;
 }
 
@@ -83,7 +83,7 @@ button {
 
 .header__nav {
   background-color: #fff;
-  padding: 19px 6px;
+  padding: 19px 16px;
   gap: 0 16px;
 }
 
@@ -150,8 +150,6 @@ button {
   font-weight: 700;
   line-height: 40px;
 
-  padding-left: 10px;
-
   position: relative;
 }
 
@@ -167,7 +165,7 @@ button {
 
 .header__bottom {
   background-color: #f8f8f8;
-  padding: 24px 6px;
+  padding: 24px 16px;
 }
 
 .info__top {
@@ -238,6 +236,7 @@ button {
 .box__text {
   max-height: 90px;
   overflow: auto;
+  padding-left: 16px;
 }
 
 .box__text::-webkit-scrollbar {
@@ -250,7 +249,7 @@ button {
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
-  padding-left: 32px;
+  padding-left: 42px;
   position: relative;
   margin-bottom: 16px;
   margin-top: 16px;
@@ -280,7 +279,7 @@ button {
 @media (min-width: 768px) {
   .header__nav {
     min-width: 725px;
-    padding: 19px 14px;
+    padding: 19px 24px;
   }
 
   .menu-left {
@@ -296,7 +295,7 @@ button {
   }
   /*  */
   .header__bottom {
-    padding: 24px 14px 32px 14px;
+    padding: 24px 24px 32px 14px;
   }
 
   .title::before {
@@ -305,14 +304,14 @@ button {
   /*  */
 
   .menu__list--m {
-    padding: 0 14px 32px 14px;
+    padding: 0 24px 32px 14px;
     gap: 0 16px;
   }
   /*  */
   .feedback {
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 14px 40px;
+    padding: 0 24px 40px;
     gap: 48px;
   }
 
@@ -351,7 +350,7 @@ button {
     justify-content: space-between;
     align-items: center;
 
-    padding: 42px 22px 9px 22px;
+    padding: 42px 32px 9px 22px;
   }
 
   .title::before {
@@ -375,7 +374,7 @@ button {
   /*  */
 
   .menu__list--m {
-    padding: 0 22px 15px 22px;
+    padding: 0 32px 15px 22px;
     width: 100%;
     gap: 0;
   }
@@ -403,7 +402,7 @@ button {
   }
 
   .feedback {
-    padding: 0 22px 50px;
+    padding: 0 32px 50px;
   }
 
   .feedback__text {
