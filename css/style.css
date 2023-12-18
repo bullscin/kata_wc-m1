@@ -186,7 +186,7 @@ button {
   gap: 0 20px;
   overflow: auto;
 
-  padding: 0 6px 24px 6px;
+  padding: 0 16px 24px;
 }
 
 .menu__list--m::-webkit-scrollbar {
